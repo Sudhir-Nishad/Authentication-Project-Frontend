@@ -1,0 +1,50 @@
+.container-a
+{
+    height: 350px;
+    width: 35%;
+    background-color:rgb(8, 124, 119);
+    /* position: absolute; */
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 3px black ;
+    margin-top: 50px;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+}
+input
+{
+    height: 30px;
+    width: 55%;
+    margin-bottom: 40px;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    
+}
+button
+{
+    height: 40px;
+    width: 30%;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+button:active
+{
+    transform: scale(1.1);
+}
+.b2
+{
+    background-color: rgb(53, 51, 51);
+}
+.b2a
+{
+    color: white;
+}
